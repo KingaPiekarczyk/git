@@ -1,0 +1,16 @@
+import java.util.Scanner;
+public class Main {    public static void main(String[] args) {
+    int liczba1, liczba2, suma;
+
+        System.out.println("Witaj to Twój kalkulator dodawania :)");
+        Scanner n=new Scanner(System.in);
+        System.out.println("Podaj swoją pierwszą liczbę");
+        liczba1=n.nextInt();
+        System.out.println("Podaj swoją drugą liczbę");
+        liczba2=n.nextInt();
+        suma=liczba1+liczba2;
+        System.out.println("Twoja suma liczb " + liczba1+"i" +liczba2+" = "+suma );
+
+
+
+}}
